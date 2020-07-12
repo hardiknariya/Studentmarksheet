@@ -88,7 +88,6 @@ export default class App extends Component {
       persentage: (Number(this.state.totalMark) + Number(this.state.mark)) / (items.length)
     })
   }
-
   render() {
     const { isUpdate } = this.state;
     return (
